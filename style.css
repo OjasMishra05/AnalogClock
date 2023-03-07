@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clock{
+    width: 40vw;
+    height: 40vw;
+}
+.clockbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ca5275;
+    height: 49vw;
+}
+.hrs, .min, .sec{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 0.3vw;
+    position: absolute;
+    transform-origin: bottom;
+}
+.hrs{    
+    width: 0.25vw;
+    height: 9.5vw;
+    top: 15vw;
+    left: 49.25vw;
+}
+.min{    
+    width: 0.13vw;
+    height: 11vw;
+    top: 13vw;
+    left: 49.25vw;
+}
+.sec{    
+    width: 0.01vw;
+    height: 13vw;
+    top: 11vw;
+    left: 49.25vw;
+}
